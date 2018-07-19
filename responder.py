@@ -79,10 +79,3 @@ player = Setup(player_stats)
 
 print(player.all_stats())
 
-
-
-
-# TODO:
-# Achieved: 
-	# Accessed player stats from the setup class
-	# object can now return all stats for a player
