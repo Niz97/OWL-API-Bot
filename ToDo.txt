@@ -1,0 +1,4 @@
+# TODO:
+# Achieved: 
+	# Accessed player stats from the setup class
+	# object can now return all stats for a player
