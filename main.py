@@ -14,11 +14,11 @@ player_name = sys.argv[1]
 RESPONSE = (
 	"Statistics for {}\n"
 	"Team:{:>41}\n"
-	"Role:{:>45}\n"
-	"Average eliminations per 10 min: {:14.2f}\n"
+	"Role:{:>42}\n"
+	"Average eliminations per 10 min: {:15.2f}\n"
 	"Average deaths per 10 min:{:21.2f}\n"
-	"Average hero damage per 10 min:{:18.2f}\n"
-	"Average healing per 10 min:{:24.2f}\n"
+	"Average hero damage per 10 min:{:19.2f}\n"
+	"Average healing per 10 min:{:21.2f}\n"
 	"Average ultimates earned per 10 min:{:11.2f}\n"
 	"Average final blows per 10 min:{:16.2f}\n"
 	"Total time played:{:30.2f}\n"
@@ -78,4 +78,3 @@ player = Setup(player_stats)
 
 
 print(player.all_stats())
-
